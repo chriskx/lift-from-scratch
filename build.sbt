@@ -4,7 +4,7 @@ name := "liftfromscratch"
 
 version := "0.1-SNAPSHOT"
 
-scalaVersion := "2.10.0"
+scalaVersion := "2.10.2"
 
 seq(com.github.siasia.WebPlugin.webSettings :_*)
 
