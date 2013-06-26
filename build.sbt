@@ -8,6 +8,8 @@ scalaVersion := "2.10.0"
 
 seq(com.github.siasia.WebPlugin.webSettings :_*)
 
+//libraryDependencies += "org.slf4j" % "slf4j-simple" % "1.7.5"
+
 libraryDependencies ++= {
   val liftVersion = "2.5-M4"
   Seq(
